@@ -1,0 +1,100 @@
+* {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+header {
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid antiquewhite;
+    /* position: fixed; */
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+header li {
+    display: inline-flex;
+    
+}
+
+li a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+li a:hover {
+    color: #6B844A;
+    text-decoration: none;
+}
+
+body {
+    background-color: #333;
+    color: #faebd7;
+}
+
+#banner {
+    background-image: url(../images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+}
+
+#text {
+    background-color: #333;
+    width: 1200px;
+    align-items: center;
+}
+
+#middle {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 10px 0;
+}
+
+#middle h2, #middle h4 {
+        text-align: center;
+}
+#middle img {
+    height: 200px;
+    width: 300px;
+    display: inline-flex;
+}
+
+#locations {
+    background-image: url(../images/img-locations-background.jpg);
+    height: 500px;
+}
+
+.locards {
+    background-color: #333;
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    opacity: 1;
+    margin-top: 15px;
+    align-items: center;
+
+}
+
+#pseudo-footer {
+    height: 200px;
+    text-align: center;
+
+}
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+    margin: 0 0;
+}

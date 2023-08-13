@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'GlegooBanner';
+    src: url('../fonts/Glegoo-Regular.woff2') format('woff2'), 
+        url('../fonts/Glegoo-Regular.woff') format('woff'),
+        url('../fonts/Glegoo-Regular.ttf') format('truetype');
+  }
+
+* {
+    font-family: Helvetica;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+#banner {
+    background-image: url('../images/pattern.jpeg');
+    font-size: 100px;
+    color: khaki;
+    text-align: center;
+}
+
+body h2 {
+    font-size: 32px;
+    color: white;
+}
+
+.item-price {
+    color: blue;
+    font-weight: bold;
+}
+
+#brushes-section {
+    background-color: mediumspringgreen;
+}
+
+#frames-section {
+    background-color: lightcoral;
+}
+
+#paint-section {
+    background-color: skyblue;
+}
